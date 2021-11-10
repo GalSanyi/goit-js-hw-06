@@ -19,7 +19,7 @@ const list = document.querySelector(".gallery");
 
 const createGallery = (array) => {
     list.classList.add('gallery')
-    const imagesTags = ({ url, alt }) => `<li><img src='${url}' alt='${alt}' width='310'></li>`;
+    const imagesTags = ({ url, alt }) => `<li><img class="img" src='${url}' alt='${alt}' width='150'></li>`;
     const gallery = images.map(imagesTags).join(" ");
     list.insertAdjacentHTML('beforeend', gallery);
 }
