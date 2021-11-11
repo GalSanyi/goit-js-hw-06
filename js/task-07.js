@@ -5,4 +5,3 @@ inputEl.addEventListener("input", onRangeInput)
 function onRangeInput() {
     spanEl.style.fontSize = inputEl.value + 'px'
 };
-console.log(inputEl.value);
