@@ -32,6 +32,6 @@
                 margin-right: 15px;
             }
             
-            .gallery:nth-last-child(-n+3) {
+            .gallery:nth(last-child) {
                 margin-right: 0;
             }
