@@ -25,13 +25,13 @@
             .gallery {
                 display: flex;
                 list-style: none;
-                align-items: center
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
             }
             
             .img {
                 height: 100px;
                 margin-right: 15px;
             }
-            /* .gallery:nth(last-child) {
-                margin-right: 0;
-            } */
