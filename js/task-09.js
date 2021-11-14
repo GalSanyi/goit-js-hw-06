@@ -10,10 +10,10 @@
 
  button.addEventListener('click', onGenerator);
 
- const color = getRandomHexColor();
+ 
 
  function onGenerator() {
-     getRandomHexColor();
+    const color = getRandomHexColor();
      body.style.background = color;
      button.style.color = color;
      Background.textContent = color;
