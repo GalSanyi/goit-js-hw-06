@@ -18,10 +18,8 @@ function onFormSubmit(event) {
 
     // ---------------------------------------------------------
     const resObject = new FormData(event.currentTarget);
-    // Вывод объекта в консоль
-    resObject.forEach((value, name) => {
-        console.log(`field ${name} = ${value}`)
-    });
+
+    console.log({ resObject });
     // ---------------------------------------------------------
 
 
@@ -39,4 +37,3 @@ function checkField({ email, password }) {
     }
     return true;
 }
-new Map();
